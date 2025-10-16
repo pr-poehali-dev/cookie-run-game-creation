@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Rounded+Mplus+1c:wght@400;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -97,5 +99,6 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: "Rounded Mplus 1c", sans-serif;
   }
 }
